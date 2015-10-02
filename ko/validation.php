@@ -41,7 +41,7 @@ return [
     "in"                => "선택된 :attribute은(는) 유효하지 않습니다.",
     "integer"           => ":attribute은(는) 반드시 정수여야 합니다.",
     "ip"                => ":attribute은(는) 반드시 유효한 IP 주소여야 합니다.",
-    'json'              => 'The :attribute must be a valid JSON string.',
+    "json"              => ":attribute은(는) 유효한 JSON string이어야합니다.",
     "max"               => [
         "numeric"   => ":attribute은(는) 반드시 :max 보다 작아야 합니다.",
         "file"      => ":attribute은(는) 반드시 :max 킬로바이트보다 작아야 합니다.",
@@ -71,7 +71,7 @@ return [
         "string"    => ":attribute은(는) 반드시 :size 자릿수여야 합니다.",
         "array"     => ":attribute은(는) 반드시 :max 개의 아이템을 포함해야 합니다.",
     ],
-    "string"            => "The :attribute must be a string.",
+    "string"            => ":attribute은(는) 유효한 string이어야합니다.",
     "timezone"          => ":attribute은(는) 올바른 시간대 이어야 합니다.",
     "unique"            => ":attribute은(는) 이미 사용중 입니다.",
     "url"               => ":attribute 형식은 유효하지 않습니다.",
